@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_addPlan"
+        android:orderInCategory="2100"
+        android:title="@string/menu_addPlan" />
+    <item
+        android:id="@+id/menu_addPlanMyStory"
+        android:orderInCategory="3100"
+        android:title="@string/menu_addPlanMyStory" />
+    <item
+        android:id="@+id/menu_GPS_ON"
+        android:orderInCategory="9300"
+        android:title="@string/menu_GPS_ON"
+        android:visible="false" />
+    <item
+        android:id="@+id/menu_GPS_OFF"
+        android:orderInCategory="9400"
+        android:title="@string/menu_GPS_OFF"
+        android:visible="false" />
+    <item
+        android:id="@+id/menu_back"
+        android:icon="@drawable/ic_back"
+        android:orderInCategory="9980"
+        android:title="@string/menu_back"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_end"
+        android:orderInCategory="9990"
+        android:title="@string/menu_end" />
+
+</menu>

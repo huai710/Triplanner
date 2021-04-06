@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Maincolor"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/Theme.Triplanner.NoActionBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/drawer_planMyStory" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/planmystory_edit_new"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/padding"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/planmystory_edit_plan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/planmystory_new_t002"
+                android:textColor="@color/black"
+                android:textSize="@dimen/title_2"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/planmystory_edit_planrv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/planmystory_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:padding="@dimen/padding"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/planmystory_edit_user"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:text="@string/planmystory_edit_t001"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_1" />
+
+                <Button
+                    android:id="@+id/planmystory_edit_finish"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_btn"
+                    android:text="@string/planmystory_edit_finish"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/content" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/planmystory_edit_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/planmystory_edit_name"
+                android:inputType="text"
+                android:maxLength="20"
+                android:textSize="@dimen/subtitle"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/planmystory_edit_setprivacy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/planmystory_edit_setprivacy"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/content" />
+
+                <RadioGroup
+                    android:id="@+id/planmystory_edit_privacy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:theme="@style/Theme.Triplanner.NoActionBar">
+
+                    <RadioButton
+                        android:id="@+id/planmystory_edit_public"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin"
+                        android:checked="true"
+                        android:text="@string/planmystory_edit_public"
+                        android:textSize="@dimen/content" />
+
+                    <RadioButton
+                        android:id="@+id/planmystory_edit_private"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/planmystory_edit_private"
+                        android:textSize="@dimen/content" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/planmystory_edit_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/planmystory_edit_myname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="@dimen/margin"
+            android:layout_marginBottom="@dimen/margin"
+            android:text="@string/myname04"
+            android:textColor="@color/Dark_bg04"
+            android:textSize="@dimen/content"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</LinearLayout>

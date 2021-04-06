@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //01
+    <string name="search_button">地圖</string>
+    <!--   search-->
+    <string-array name="m0501_a001">
+        <item>西屯區</item>
+        <item>南屯區</item>
+        <item>北屯區</item>
+        <item>中區</item>
+        <item>東區</item>
+        <item>南區</item>
+        <item>北區</item>
+        <item>太平區</item>
+        <item>豐原區</item>
+    </string-array>
+    <string name="search_gpson">GPS開啟</string>
+    <string name="search_gpsoff">GPS關閉</string>
+
+    <string name="list_loc">地區</string>
+    <string name="list_name">名稱</string>
+    <string name="list_east">東經</string>
+    <string name="list_north">北緯</string>
+
+    <string name="txt_location">地區</string>
+    <string name="search_content_name">中彰投職訓局</string>
+    <string name="search_content_message">電話:(04)2357-5984  地址:台中市OO區OO路OO號  簡介:美麗的景點，值得去!!</string>
+    <string name="txt_count">共計:</string>
+    <string name="txt_count01">筆</string>
+    <string name="descr">無圖片</string>
+
+
+    //03
+    <string name="astray_menu_b01">探索</string>
+    <string name="astray_menu_b02">景點瀏覽</string>
+    <string name="astray_menu_b03">行程</string>
+    <string name="astray_menu_b04">更多</string>
+<!--    <string name="action_settings">結束</string>-->
+
+    <string name="astray_plan_rb01a">行程</string>
+    <string name="astray_plan_rb01b">景點收藏</string>
+    <string name="astray_plan_rb01c">旅遊回憶</string>
+    <string name="astray_back_finish">再次點擊「返回」離開</string>
+
+    <!--    <string name="astray_menu_b01">探索</string>-->
+    <!--    <string name="astray_menu_b02">景點瀏覽</string>-->
+    <!--    <string name="astray_menu_b03">行程</string>-->
+    <!--    <string name="astray_menu_b04">更多</string>-->
+    <!--    <string name="action_settings">結束</string>-->
+
+    <!--    <string name="astray_plan_rb01a">行程</string>-->
+    <!--    <string name="astray_plan_rb01b">景點收藏</string>-->
+    <!--    <string name="astray_plan_rb01c">旅遊回憶</string>-->
+    <!--    <string name="astray_back_finish">再次點擊「返回」離開</string>-->
+
+    <!--    2020/12/29 以上刪除-->
+
+    <!--    1. 主頁為探索-->
+    <!--    2. 從左上三條橫槓(drawer)點選 探索、行程、旅遊回憶、景點瀏覽、景點收藏 效果等同目前下方按鈕的intent-->
+    <!--    3. 以上五個按鈕皆不可intent自己-->
+    <!--    4. 粉絲團intent外部facebook-->
+    <!--    5. 關於我使用dialog呈現，內容含:姓名、信箱、電話，按鈕含:返回、電話連絡-->
+    <!--    6. 設定按鈕intent到more頁面，中間的google登入及粉絲團保留，右上角menu放 返回、登入、登出-->
+
+    <string name="drawer_planStory">探索</string>
+    <string name="drawer_plan">行程規劃</string>
+    <string name="drawer_planMyStory">旅遊回憶</string>
+    <string name="drawer_search">景點瀏覽</string>
+    <string name="drawer_planFavorite">景點收藏</string>
+    <string name="drawer_facebook">粉絲團</string>
+    <string name="drawer_aboutMe">關於我</string>
+    <string name="action_settings">關於我</string>
+    <string name="drawer_open">打開</string>
+    <string name="drawer_close">合起</string>
+
+
+
+
+    <!--    1. 探索、行程、旅遊回憶、景點瀏覽、景點收藏 以上五個頁面無menu返回鍵，但要放結束-->
+    <!--    2. 行程頁面的menu放 建立新行程，旅遊回憶頁面的menu放 建立新旅遊回憶-->
+    <!--    3. 開啟定位 及 關閉定位 這兩個menuItem僅是預留，在景點瀏覽頁面也不會用到-->
+
+    <string name="menu_addPlan">建立新行程</string>
+    <string name="menu_addPlanMyStory">建立新旅遊回憶</string>
+    <string name="menu_logIn">登入</string>
+    <string name="menu_logOut">登出</string>
+    <string name="menu_GPS_ON">開啟定位</string>
+    <string name="menu_GPS_OFF">關閉定位</string>
+    <string name="menu_back">返回</string>
+    <string name="menu_end">結束</string>
+
+    <!--    2020/12/29 以上新增-->
+
+    <string name="p_delete">刪除</string>
+    <string name="p_num">第1天</string>
+    <string name="p_name">行程名稱</string>
+    <string name="p_duration">行程區間</string>
+    <string name="p_add_day">加入</string>
+    <string name="p_item_address">景點地址</string>
+    <string name="p_item_spotname">景點名稱</string>
+    <string name="p_item_staytime">停留時間</string>
+    <string name="p_item_tracetime">路程時間</string>
+    <string name="p_item_delete">刪除</string>
+    <string name="p_item_text">文字筆記</string>
+    <string name="p_day_map">第1天地圖</string>
+    <string name="p_day_name">第1天行程</string>
+    <string name="p_day_day">第1天</string>
+    <string name="p_day_date">2020/12/26</string>
+    <string name="p_day_addItem">加入景點</string>
+    <string name="p_card_daydate_t">~</string>
+
+    <string name="signed_in">登入</string>
+    <string name="signed_out">登出</string>
+    <string name="txt_welcome1">Triplanner</string>
+    <string name="txt_welcome2">規劃與紀錄您的旅遊行程</string>
+
+
+    //04
+    <!--    planmystory_new-->
+    <string name="planmystory_new_t001">新增旅遊回憶</string>
+    <string name="planmystory_new_back">返回</string>
+    <string name="planmystory_new_t002">選擇行程</string>
+    <string name="planmystory_new_name">行程名稱</string>
+    <string name="planmystory_new_date">xxx年xx月xx日~xxx年xx月xx日</string>
+    <string name="planmystory_new_select">確認</string>
+    <string name="planmystory_new_null"> </string>
+    <string name="planmystory_new_progresstitle">請稍等</string>
+    <string name="planmystory_new_progressmessage">執行中 </string>
+    Message
+    <!--    planmystory_edit-->
+    <string name="planmystory_edit_t001">編輯</string>
+    <string name="planmystory_edit_finish">完成</string>
+    <string name="planmystory_edit_name">輸入旅遊回憶名稱</string>
+    <string name="planmystory_edit_setprivacy">設定隱私權：</string>
+    <string name="planmystory_edit_public">公開</string>
+    <string name="planmystory_edit_private">私人</string>
+    <string name="planmystory_edit_day">第一天</string>
+    <string name="planmystory_edit_place">景點名稱</string>
+    <string name="planmystory_edit_placeinformation">...</string>
+    <string name="planmystory_edit_time">停留時間</string>
+    <string name="planmystory_edit_story">輸入文字說明</string>
+    <!--    planmystory_editdlg-->
+    <string name="planmystory_editdlg_title">確認完成編輯？</string>
+    <string name="planmystory_editdlg_cancel">先不要</string>
+    <string name="planmystory_editdlg_ok">完成!!!</string>
+    <!--    planmystory_show-->
+    <string name="planmystory_show_null"> </string>
+    <string name="planmystory_show_user">Google Name</string>
+    <string name="planmystory_show_userimage">頭像</string>
+    <string name="planmystory_show_showdate">發佈日期：</string>
+    <string name="planmystory_show_day">天數：</string>
+    <string name="planmystory_show_name">旅遊回憶名稱</string>
+    <string name="planmystory_show_day1">第一天</string>
+    <string name="planmystory_show_place">景點名稱</string>
+    <string name="planmystory_show_placeinformation">...</string>
+    <string name="planmystory_show_time">停留時間</string>
+    <string name="planmystory_show_story">文字說明</string>
+    <string name="planmystory_show_edit">編輯</string>
+
+    //08
+    <string name="plan_toMap">地圖模式</string>
+    <string name="plan_txt_t001">文字筆記</string>
+    <string name="plan_map_t001">地圖模式</string>
+    <string name="plan_map_map">第1天地圖</string>
+    <string name="plan_r001_t1">景點地址</string>
+    <string name="plan_r001_t0">停留時間</string>
+    <string name="plan_r001_b0">文字筆記</string>
+    <string name="plan_r001_b1">刪除</string>
+    <string name="plan_r001_d">景點名稱</string>
+    <string name="plan_toAdd">加入景點</string>
+    <string name="plan_d">第1天</string>
+    <string name="plan_addD">加入</string>
+
+
+    //09
+    <string name="p_card_Gname">testName</string>
+    <string name="p_card_daynum">2020/12/04~2020/12/06</string>
+    <string name="p_card_dayname">一起來去台中玩</string>
+    <string name="img_Gphoto">google大頭貼</string>
+    <string name="p_card_releaseday">2020/12/04</string>
+    <string name="img_cancel">cancel</string>
+
+
+    <!--    假資料(行程名稱)-->
+    <string name="p_card_dayname00001">來吧來玩吧</string>
+    <string name="p_card_dayname00002">來吧來玩吧</string>
+    <string name="p_card_dayname00003">來吧來玩吧</string>
+    <string name="p_card_dayname00004">來吧來玩吧</string>
+    <string name="p_card_dayname00005">來吧來玩吧</string>
+    <string name="p_card_dayname00006">來吧來玩吧</string>
+    <string name="p_card_dayname00007">來吧來玩吧</string>
+    <string name="p_card_dayname00008">來吧來玩吧</string>
+    <string name="p_card_dayname00009">來吧來玩吧</string>
+    <string name="p_card_dayname00010">來吧來玩吧</string>
+
+    <!--    假資料(旅遊日期)-->
+    <string name="p_card_daydate00001">2020/12/05~2020/12/10</string>
+    <string name="p_card_daydate00002">2020/12/05~2020/12/10</string>
+    <string name="p_card_daydate00003">2020/12/05~2020/12/10</string>
+    <string name="p_card_daydate00004">2020/12/05~2020/12/10</string>
+    <string name="p_card_daydate00005">2020/12/05~2020/12/10</string>
+    <string name="p_card_daydate00006">2020/12/05~2020/12/10</string>
+    <string name="p_card_daydate00007">2020/12/05~2020/12/10</string>
+    <string name="p_card_daydate00008">2020/12/05~2020/12/10</string>
+    <string name="p_card_daydate00009">2020/12/05~2020/12/10</string>
+    <string name="p_card_daydate00010">2020/12/05~2020/12/10</string>
+
+
+    <string name="ps_card_Gname">testName</string>
+    <string name="ps_card_daynum">3天</string>
+    <string name="ps_card_dayname">一起來去台中玩</string>
+    <string name="ps_card_releaseday">2020/12/04</string>
+    <string name="img_like">like</string>
+    <string name="ps_slide_expand1">輪播收折</string>
+    <string name="ps_slide_expand2">輪播展開</string>
+
+    <string name="pm_card_Gname">testName</string>
+    <string name="pm_card_daynum">3天</string>
+    <string name="pm_card_dayname">一起來去台中玩</string>
+    <string name="pm_card_releaseday">2020/12/04</string>
+    <string name="img_lock">lock</string>
+
+    <string name="p_addnew_img_btn01">go back</string>
+    <string name="p_addnew_title">建立行程</string>
+    <string name="p_addnew_planname">行程名稱</string>
+    <string name="p_addnew_planname_edhint">名稱</string>
+    <string name="p_addnew_startdate">出發日期</string>
+    <string name="p_addnew_day">行程天數</string>
+    <string name="p_addnew_startdate_edhint">日期</string>
+    <string name="p_addnew_day_edhint">天數</string>
+    <string name="p_addnew_cancel_btn">取消</string>
+    <string name="p_addnew_ok_btn">建立</string>
+    <string name="test_btn">測試dailog</string>
+
+    <string name="cancel_dlg_title">確定要刪除?</string>
+    <string name="cancel_dlg_btnok">確定</string>
+    <string name="cancel_dlg_btnback">取消</string>
+
+
+    //10
+    <string-array name="touristArr">
+        <item>彩虹眷村</item>
+        <item>東海大學</item>
+        <item>國家歌劇院</item>
+        <item>一中商圈</item>
+        <item>逢甲夜市</item>
+        <item>宮原眼科</item>
+        <item>新社古堡</item>
+        <item>大坑風景區</item>
+    </string-array>
+
+
+    //11
+    <string name="login_t000">Google 帳號登入</string>
+    <string name="google">google</string>
+    <string name="login_e001">請輸入帳號</string>
+    <string name="login_p001">請輸入密碼</string>
+    <string name="login_t001">帳號:</string>
+    <string name="login_t002">密碼:</string>
+    <string name="login">登入</string>
+    <string name="login_b001">登入系統</string>
+    <string name="login_btnOK">確定登入</string>
+    <string name="login_btnCancel">取消</string>
+    <string name="login_ans">你輸入:</string>
+    <string name="login_title">登入 Astary </string>
+    <string name="more_time">已登入時間:</string>
+    <string name="more_hours">時</string>
+    <string name="more_minius">分</string>
+    <string name="more_seconds">秒</string>
+    <string name="more_b001">登出</string>
+    <string name="more_user">user</string>
+    <string name="more_facebook">Facebook</string>
+    <string name="p_card_datestart">選擇旅程開始日期:</string>
+    <string name="addN_yy">年</string>
+    <string name="addN_mm">月</string>
+    <string name="addN_dd">日</string>
+    <string name="dlg_deleteTitle">刪除</string>
+    <string name="dlg_deleteMessage">確定刪除?</string>
+    <string name="dlg_delete_positive">確認</string>
+    <string name="dlg_delete_neutral">取消</string>
+    <string name="error">錯誤</string>
+    //----------------------------------------------------
+    <string name="login_us">關於我們:</string>
+    <string name="login_app"></string>
+    <string name="loing_menu1">註冊帳號</string>
+    <string name="login_menu2">忘記帳號</string>
+    <string name="login_menu3">關於我們</string>
+    <string name="login_menu4">結束</string>
+    <string name="login_Related2">開發人員:</string>
+    <string name="login_prog">資料讀取中</string>
+    <string name="login_prog1">相關資訊</string>
+    <string name="login_people1">林子淮：huai80710@gmail.com</string>
+    <string name="login_people3"></string>
+    <string name="login_people4"></string>
+    <string name="login_people8"></string>
+    <string name="login_people9"></string>
+    <string name="login_people10"></string>
+    <string name="login_people11"></string>
+
+    <string name="desc_google_icon">Google Logo</string>
+    <string name="signed_in_fmt"> " "Name : %s</string>
+    <string name="id_token_fmt">ID Token: %s</string>
+    //........weather
+    <string name="country">"地區: "</string>
+    <string name="Temperature">溫度:</string>
+    <string name="Temperature_Min">溫度(Min):</string>
+    <string name="Temperature_Max">溫度(Max):</string>
+    <string name="Humidity">"濕度: "</string>
+    <string name="Pressure">"氣壓: "</string>
+    <string name="areaname">英文地名:</string>
+    <string name="ps_t001">推薦景點</string>
+    <string name="ps_t002">分享行程</string>
+
+
+</resources>

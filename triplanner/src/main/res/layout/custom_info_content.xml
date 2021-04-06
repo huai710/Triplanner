@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_info"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:background="@drawable/bg_info">
+
+    <ImageView
+        android:id="@+id/content_ico"
+        android:layout_width="70sp"
+        android:layout_height="50sp"
+        android:layout_marginEnd="10sp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/descr"
+        android:src="@drawable/logo_triplanner"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/None"
+            android:textColor="@color/Dark_bg01"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/snippet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/None"
+            android:ellipsize="end"
+            android:textColor="@color/Dark_bg01"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/addr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/None"
+            android:textColor="@color/Dark_bg01" />
+
+        <TextView
+            android:id="@+id/tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/None"
+            android:textColor="@color/Dark_bg01" />
+
+    </LinearLayout>
+
+</LinearLayout>

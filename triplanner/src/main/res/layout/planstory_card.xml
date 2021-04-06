@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/p_day_layout001"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/padding_10dp"
+    android:orientation="vertical"
+    tools:context=".PlanStory_Card">
+
+
+    <LinearLayout
+        android:id="@+id/p_day_layout002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.shashipage.triplanner.CircleImgView
+                android:id="@+id/img_Gphoto"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="@dimen/padding_10dp"
+                android:background="@color/None"
+                android:contentDescription="@string/img_Gphoto"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/logo_triplanner" />
+
+            <TextView
+                android:id="@+id/ps_card_Gname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="@string/ps_card_Gname"
+                android:textColor="@color/Dark_bg01"
+                android:textSize="@dimen/title_1" />
+
+            <ImageButton
+                android:id="@+id/img_like"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:background="@color/None"
+                android:contentDescription="@string/img_like" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/ps_card_layout02"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/ps_card_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="backgroud"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:id="@+id/ps_card_layout04"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/bg_card"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/ps_card_layout05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/None">
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/ps_card_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/ps_card_daynum"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:text="@string/ps_card_daynum"
+                    android:textColor="@color/White_text"
+                    android:textSize="@dimen/subtitle" />
+
+                <TextView
+                    android:id="@+id/p_day_day"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ps_card_dayname"
+                    android:textColor="@color/White_text"
+                    android:textSize="@dimen/title_1"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/p_day_layout001_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/p_day_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/ps_card_releaseday"
+                android:textSize="@dimen/subtitle" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

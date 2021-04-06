@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/white" />
+
+    <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp" />
+
+    <corners android:radius="10dp" />
+
+    <gradient
+        android:type="linear"
+        android:angle="270"
+        android:startColor="@color/None"
+        android:centerColor="@color/None"
+        android:endColor="@color/black_70">
+
+    </gradient>
+
+</shape>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<shape-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:shape="rectangle"> //指定形狀類型，默認為rectangle-->
+
+<!--<solid android:color="@color/white" /> //指定形狀的填充色-->
+
+<!--<padding-->
+<!--    android:bottom="10dp"-->
+<!--    android:left="10dp"-->
+<!--    android:right="10dp"-->
+<!--    android:top="10dp" /> //設定內容區域離邊界的間距-->
+
+<!--<corners android:radius="200dp" /> //設定圓角，只適用於 rectangle-->
+
+<!--<gradient-->
+<!--    android:type="linear" //線性漸變-->
+<!--    android:angle="45" //漸變角度-->
+<!--    android:startColor="@color/purple_700"-->
+<!--    android:centerColor="@color/black"-->
+<!--    android:endColor="@color/purple_500"-->
+
+<!--</shape>-->

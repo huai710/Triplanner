@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/planmystory_edit_planRV"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin"
+    android:background="@drawable/bg_line"
+    android:baselineAligned="false"
+    android:gravity="end"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/planmystory_edit_planrv_t001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/planmystory_new_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/subtitle"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/planmystory_edit_planrv_t002"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/planmystory_new_date"
+            android:textSize="@dimen/content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/planmystory_edit_planrv_img001"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/None"
+            android:contentDescription="@string/planmystory_new_select"
+            app:srcCompat="@drawable/ic_go" />
+    </LinearLayout>
+
+</LinearLayout>

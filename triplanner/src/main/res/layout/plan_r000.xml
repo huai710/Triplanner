@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/padding_20dp"
+    android:background="@color/None"
+    android:orientation="vertical"
+    android:padding="@dimen/padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/plan_r000_t001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Silver"
+            android:text="第一天"
+            android:textColor="@color/White_text"
+            android:textSize="@dimen/subtitle"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/plan_date01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_weight="1"
+            android:text="日期"
+            android:textColor="@color/black"
+            android:textSize="@dimen/content" />
+
+        <TextView
+            android:id="@+id/plan_starttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="行程開始時間"
+            android:textColor="@color/black"
+            android:textSize="@dimen/content"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/plan_r000_re"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/plan_r000_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/padding_10dp"
+        android:background="@drawable/bg_btn"
+        android:gravity="center"
+        android:text="加入景點"
+        android:textColor="@color/black"
+        android:textSize="@dimen/subtitle" />
+</LinearLayout>

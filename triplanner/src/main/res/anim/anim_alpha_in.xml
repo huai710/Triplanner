@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:interpolator="@android:anim/accelerate_interpolator"
+        android:startOffset="0"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="2000"
+        android:fillAfter="true"/>
+
+
+</set>
+    <!--      透明度控制動畫效果 alpha
+            浮點型值：
+                fromAlpha 屬性為動畫起始時透明度
+                toAlpha   屬性為動畫結束時透明度
+                android:repeatCount="3"
+                android:fillAfter="true"
+                android:repeatMode="restart"
+                repeatCount  重複次數
+                REPEATMODE表示重複的模式
+                fillAfter表示結束後是否保持狀態
+                說明:
+                    0.0表示完全透明
+                    1.0表示完全不透明
+                以上值取0.0-1.0之間的float數據類型的數字
+
+            長整型值：
+                duration  屬性為動畫持續時間
+                說明:
+                    時間以毫秒為單位    -->

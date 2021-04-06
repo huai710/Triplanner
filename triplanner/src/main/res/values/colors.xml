@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    老爹系統原色-->
+    <color name="Red">#ff0000</color>
+    <color name="Yellow">#FFFF00</color>
+    <color name="Blue">#0000ff</color>
+    <color name="Silver">#F9A92F</color>
+    <color name="Gray">#808080</color>
+    <color name="Maroon">#800000</color>
+    <color name="Olive">#808000</color>
+    <color name="Navy">#000080</color>
+    <color name="Lime">#00FF00</color>
+    <color name="Aqua">#00FFFF</color>
+    <color name="Teal">#008080</color>
+    <color name="Fuchsia">#FF00FF</color>
+    <color name="Purple">#800080</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+
+<!--    系統原色-->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--    透明色-->
+    <color name="black_95">#F2000000</color>
+    <color name="black_90">#E6000000</color>
+    <color name="black_85">#D9000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="black_75">#BF000000</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black_65">#A6000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_55">#8C000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_45">#73000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_35">#59000000</color>
+    <color name="black_30">#4D000000</color>
+
+<!--    搭配白-->
+    <color name="None"></color>
+    <color name="White_text">#F1FFFF</color>
+<!--    <color name="White_bg">#E6E2E1</color>-->
+    <color name="White_01">#dafff6</color>
+    <color name="White_02">#c6fff1</color>
+
+<!--    背景灰-->
+<!--    <color name="HintOfRed">#F2F0EF</color>-->
+    <color name="SoftPeach">#E6E2E1</color>
+    <color name="Alto">#CCC5C3</color>
+    <color name="Martini">#ACA9A8</color>
+
+<!--    暗色背景-->
+    <color name="Dark_bg01">#0E221E</color>
+<!--    <color name="Dark_bg02">#112A25</color>-->
+    <color name="Dark_bg03">#15352E</color>
+    <color name="Dark_bg04">#1A4239</color>
+    <color name="Dark_bg05">#215347</color>
+    <color name="Dark_bg06">#296859</color>
+    <color name="Dark_bg07">#33826F</color>
+    <color name="Dark_bg08">#40A38B</color>
+
+<!--    主色調(外框)-->
+    <color name="Maincolor">#fceba7</color>
+<!--    相似色-->
+    <color name="Similar_M01">#64ffb3</color>
+    <color name="Similar_M02">#64ffc0</color>
+    <color name="Similar_M03">#64ffcd</color>
+    <color name="Similar_M04">#64ffe7</color>
+    <color name="Similar_M05">#64fff4</color>
+    <color name="Similar_M06">#64fdff</color>
+
+<!--    主色調2(內容)-->
+    <color name="Contentcolor">#f9772f</color>
+<!--    相似色-->
+    <color name="Similar_C01">#00bf85</color>
+    <color name="Similar_C02">#00bf95</color>
+    <color name="Similar_C03">#00bfa5</color>
+    <color name="Similar_C04">#00b9bf</color>
+    <color name="Similar_C05">#00a9bf</color>
+    <color name="Similar_C06">#0099bf</color>
+
+<!--    框架-Light-->
+    <color name="Maincolor_L">#9effff</color>
+<!--    框架-Dark-->
+    <color name="Maincolor_D">#14cba8</color>
+
+<!--    內容-Light-->
+    <color name="Contentcolor_L">#5df2d6</color>
+<!--    內容-Dark-->
+    <color name="Contentcolor_D">#008e76</color>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shashipage.triplanner">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_triplanner"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_triplanner_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Triplanner.NoActionBar">
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PlanStory_Card" android:screenOrientation="locked"></activity>
+        <activity android:name=".Search" android:screenOrientation="locked"></activity>
+        <activity android:name=".Search_content"  android:screenOrientation="locked"></activity>
+        <activity android:name=".Plan_Card"  android:screenOrientation="locked"></activity>
+        <activity android:name=".PlanFavorite"  android:screenOrientation="locked"></activity>
+        <activity android:name=".PlanMyStory_Card"  android:screenOrientation="locked"></activity>
+        <activity android:name=".PlanMystory_Edit"  android:screenOrientation="locked"></activity>
+        <activity android:name=".PlanMystory_Show"  android:screenOrientation="locked"></activity>
+        <!--        <activity android:name=".More"  android:screenOrientation="locked"></activity>-->
+        <activity android:name=".Plan"  android:screenOrientation="locked"></activity>
+        <activity android:name=".Plan_map"  android:screenOrientation="locked"></activity>
+        <activity android:name=".Plan_txt"  android:screenOrientation="locked"></activity>
+        <activity android:name=".Plan_r001"  android:screenOrientation="locked"></activity>
+        <activity android:name=".Search_map" android:screenOrientation="locked"></activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_marginTop="20dp"
+    android:background="@color/Maincolor"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="@dimen/padding"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="@dimen/margin"
+        android:orientation="horizontal">
+
+        <com.shashipage.triplanner.CircleImgView
+            android:id="@+id/img_Gphoto_login"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="@dimen/padding_10dp"
+            android:background="@color/None"
+            android:contentDescription="@string/img_Gphoto"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/logo_triplanner" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="請登入"
+                android:textColor="@color/black"
+                android:textSize="@dimen/title_1"
+                android:theme="@style/Theme.Triplanner.NoActionBar" />
+
+            <TextView
+                android:id="@+id/user_email"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="google@gmail.com"
+                android:textColor="@color/black"
+                android:theme="@style/Theme.Triplanner.NoActionBar" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|end"
+            android:background="@drawable/bg_btn"
+            android:text="登出"
+            android:textColor="@color/black"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|end"
+            android:background="@drawable/bg_btn"
+            android:text="登入"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>

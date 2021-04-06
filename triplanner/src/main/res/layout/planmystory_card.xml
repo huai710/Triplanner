@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pm_card_layout001"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginBottom="@dimen/padding_10dp"
+    android:orientation="vertical"
+    tools:context=".PlanMyStory_Card">
+
+    <!--    <ScrollView-->
+    <!--        android:id="@+id/pm_card_sc001"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:id="@+id/pm_card_layout002"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="vertical" />-->
+    <!--    </ScrollView>-->
+
+    <ImageView
+        android:id="@+id/pm_card_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="background"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/pm_card_layout04"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/bg_card"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/pm_card_img_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@color/None"
+            android:contentDescription="@string/img_cancel"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_cancel" />
+
+        <TextView
+            android:id="@+id/pm_card_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/pm_card_daynum"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:text="@string/pm_card_daynum"
+            android:textColor="@color/White_text"
+            android:textSize="@dimen/title_2" />
+
+        <TextView
+            android:id="@+id/pm_card_dayname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pm_card_dayname"
+            android:textColor="@color/White_text"
+            android:textSize="@dimen/title_1"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

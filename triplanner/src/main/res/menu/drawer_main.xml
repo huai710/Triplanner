@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_planStory"
+            android:icon="@drawable/ic_luggage"
+            android:orderInCategory="1000"
+            android:title="@string/drawer_planStory"
+            app:showAsAction="withText" />
+        <item
+            android:id="@+id/drawer_plan"
+            android:icon="@drawable/ic_note"
+            android:orderInCategory="4000"
+            android:title="@string/drawer_plan"
+            app:showAsAction="withText" />
+        <item
+            android:id="@+id/drawer_planMyStory"
+            android:icon="@drawable/ic_edit"
+            android:orderInCategory="5000"
+            android:title="@string/drawer_planMyStory"
+            app:showAsAction="withText" />
+        <item
+            android:id="@+id/drawer_search"
+            android:icon="@drawable/ic_map"
+            android:orderInCategory="2000"
+            android:title="@string/drawer_search"
+            app:showAsAction="withText" />
+        <item
+            android:id="@+id/drawer_planFavorite"
+            android:icon="@drawable/ic_location"
+            android:orderInCategory="3000"
+            android:title="@string/drawer_planFavorite"
+            app:showAsAction="withText" />
+    </group>
+
+    <item
+        android:id="@+id/drawer_facebook"
+        android:orderInCategory="9900"
+        android:title="@string/drawer_facebook"
+        android:visible="false"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="9999"
+        android:title="@string/action_settings"
+        android:visible="false"
+        app:showAsAction="withText" />
+
+</menu>

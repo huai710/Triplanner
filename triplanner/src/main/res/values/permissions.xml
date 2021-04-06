@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_msg1">需要[定位]核准</string>
+    <string name="dialog_msg2">需要[儲存裝置]核准</string>
+</resources>

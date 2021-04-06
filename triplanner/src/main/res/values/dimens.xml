@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">15dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="title_1">20sp</dimen>
+    <dimen name="title_2">18sp</dimen>
+    <dimen name="subtitle">16sp</dimen>
+    <dimen name="content">14sp</dimen>
+    <dimen name="drawer_width">300dp</dimen>
+</resources>
